@@ -43,7 +43,7 @@ const App = () => {
                             post1
                         </div>
                         <div>
-                            post2 and for commit
+                            post2
                         </div>
                         <div>
                             post3 and post 4
