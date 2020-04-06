@@ -9,22 +9,6 @@
   grid-template-columns:2fr 10fr ;
 
 }
-.nav{
-  grid-area: n;
-  background-color: aqua;
-}
-.header{
-  grid-area: h;
-  background-color: chartreuse;
-}
-.content{
-  grid-area: c;
-  background-color: azure;
-}
-.header img{
-  width: 60px;
-}
-
 .App {
   text-align: center;
 }
