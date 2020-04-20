@@ -13,9 +13,7 @@ class MyPosts extends React.Component {
                         <button>Remove</button>
                     </div>
                     <div className={classes.posts}>
-                        <Post message="how are you?" likesCount={0}/>
-                        <Post message="Hello" likesCount={23}/>
-                        <Post message="I'm fine" likesCount={14}/>
+                        {this.props.postData.map(post=><Post message={post.message} likesCount={post.likesCount}/>)}
                     </div>
                 </div>
         );
